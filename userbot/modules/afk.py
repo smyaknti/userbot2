@@ -17,6 +17,7 @@ from userbot import (
 from userbot.events import register
 from userbot.modules.dbhelper import is_afk, afk, afk_reason, no_afk
 
+from userbot import (AFKREASON, COUNT_MSG, ISAFK, LOGGER, LOGGER_GROUP, USERS, HELPER)
 
 @register(incoming=True, disable_edited=True)
 async def mention_afk(mention):
